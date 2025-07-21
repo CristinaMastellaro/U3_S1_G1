@@ -28,15 +28,21 @@ function App() {
         </p>
       </div>
       <ImageComponent
-        src="https://placecats.com/150/150"
+        src="https://placecats.com/300/300"
         alt="Immagine di gattini"
       />
       <ImageComponent
-        src="https://placebear.com/150/150"
+        src="https://placebear.com/300/300"
         alt="Immagine di orsacchiotti"
       />
-      <ButtonComponent testo="Clicca qui!" />
-      <ButtonComponent testo="Premi per iscriverti alla pagina" />
+      <ButtonComponent
+        animal="cats"
+        testo="Clicca qui per vedere dei gattini!"
+      />
+      <ButtonComponent
+        animal="bear"
+        testo="Premi qui se preferisci vedere degli orsetti!"
+      />
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
